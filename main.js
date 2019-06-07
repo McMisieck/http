@@ -18,3 +18,4 @@ var video = document.getElementById('video');
 document.getElementById("snap").addEventListener("click", function() {
   context.drawImage(video, 0, 0, 640, 480);
 });
+ 
